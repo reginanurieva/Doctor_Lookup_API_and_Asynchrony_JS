@@ -22,7 +22,7 @@ export class Doctor {
   getDoctorByIssue(issue) {
     return new Promise(function(resolve, reject) {
       let request = new XMLHttpRequest();
-      let url = `https://api.betterdoctor.com/2016-03-01/doctors?query=${issue}&location=wa-seattle&skip=0&limit=10&apikey=${process.env.exports.apiKey}`;
+      let url = `https://api.betterdoctor.com/2016-03-01/doctors?specialties=${issue}&location=wa-seattle&skip=0&limit=10&user_key=${process.env.exports.apiKey}`;
       //https://api.betterdoctor.com/2016-03-01/doctors?query=${issue}&location=wa-seattle&skip=0&limit=10&apikey=${process.env.exports.apiKey}
       request.onload = function() {
         if (this.status === 200) {
