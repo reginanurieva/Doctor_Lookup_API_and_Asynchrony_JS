@@ -29,6 +29,12 @@ Program in JavaScript where users may enter a medical issue (ie: â€œsore throatâ
 
 * Clone this repository from https://github.com/reginanurieva/Doctor_Lookup_API_and_Asynchrony_JS.git
 
+* Go to BetterDoctor to register for an API key.
+
+* Create an .env file, add your new API key.
+
+* Save .env file
+
 * Open up in the console with the following command:
 ```
 cd Doctor_Lookup_API_and_Asynchrony_JS
