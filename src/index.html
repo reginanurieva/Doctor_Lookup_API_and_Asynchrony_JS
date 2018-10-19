@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Doctor Lookup</title>
+</head>
+
+<body>
+  <div class='container'>
+
+    <h1 class='jumbotron'>Find the Doctor that will help you!</h1>
+    <form id='doctorForm'>
+      <div class="form-group">
+        <label for="doctor">Search by Doctors Name</label>
+        <input class="form-control" name="doctor" id="doctor" type="text" required>
+      </div>
+      <button class="btn btn-danger">Search</button>
+    </form>
+    
+    <form id='issueForm'>
+      <div class="form-group">
+        <label for="issue">Search by Simptoms: </label>
+        <input class="form-control" name="issue" id="issue" type="text" required>
+      </div>
+      <button class="btn btn-warning">Search</button>
+    </form>
+
+
+    <h1>Doctors: </h1>
+    <div class='doctorsList'>
+
+    </div>
+    <div class='showErrors'>
+
+    </div>
+  </div>
+</body>
+
+</html>
