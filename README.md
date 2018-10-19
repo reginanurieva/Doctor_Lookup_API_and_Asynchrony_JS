@@ -16,8 +16,12 @@ Program in JavaScript where users may enter a medical issue (ie: â€œsore throatâ
 2. The user enters the symptom.
   * Example:"headache"
   * Output Example:
+  ```
  Ryan Hsi, gender: male, phone number: 2065432470, etc.
-John Smith, gender: male, phone number: 2567437490, etc.
+ ```
+ ```
+ John Smith, gender: male, phone number: 2567437490, etc.
+ ```
 3. The program gives an error if the search doesn't return anything.
   * Input Example: "Crackers".
   * Output Example: "Sorry, there are no results for your search".
