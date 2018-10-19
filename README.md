@@ -12,7 +12,6 @@ Program in JavaScript where users may enter a medical issue (ie: â€œsore throatâ
 1. The user enters a doctor's name.
   * Example: "Ryan Hsi"
   * Output Example:
-### Ryan Hsi, gender: male, phone number: 2065432470, etc.
 2. The user enters the symptom.
   * Example:"headache"
   * Output Example:
